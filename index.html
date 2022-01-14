@@ -56,8 +56,8 @@
     const date = params.date || formattedDate();
     const mins = getRandomInt(10, 33)
     const time_s = `${date} 07:${mins}`
-    const time_e = `${date} 08:${mins + 15}`
-    const order = `CS${getRandomInt()}`
+    const time_e = `${date} 07:${mins + 15}`
+    const order = `CS${getRandomInt(2000000, 799999)}`
 
     
 
